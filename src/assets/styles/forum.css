@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(255, 189, 89);
+}
+
+.forum-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  background-color: rgb(255, 189, 89);
+  border-bottom: 2px solid black;
+  padding: 5px 5px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color:rgb(255, 189, 89);
+}
+
+.nav-link {
+  padding: 10px 20px;
+  border: 2px solid black;
+  background-color: rgb(255, 189, 89);
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.username {
+  margin-top: 5px;
+}
+
+.main-content {
+  display: flex;
+  width: 80%;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+.topics, .sidebar {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.topics {
+  flex: 3;
+}
+
+.topic {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.topic:hover {
+  background-color: #f9f9f9;
+  border: 2px solid black;
+}
+
+.sidebar {
+  background-color: rgb(255, 189, 89);
+  color: black;
+  padding: 10px;
+  border-left: 2px solid black;
+}
+
+
+.announcements, .online-status {
+  margin-bottom: 20px;
+}
+
+.online-status {
+  border-top: 2px solid black;
+}
+
+.status-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.message-author {
+  font-weight: bold;
+}
+
+.message-date {
+  text-align: right;
+  font-size: 0.8em;
+  color: gray;
+}
+
+.radio-icon {
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+
+.radio-icon:hover {
+  transform: scale(1.1);
+}

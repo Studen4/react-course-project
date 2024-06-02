@@ -1,0 +1,41 @@
+.personal-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 189, 89);
+    border: 3px solid black;
+  }
+  
+  .personal-page-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .personal-page-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .personal-page-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .personal-page-button:hover {
+    background-color: #0056b3;
+  }
+  

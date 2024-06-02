@@ -1,0 +1,33 @@
+.marketplace-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sales-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .sale-item {
+    border: 1px solid #000000;
+    padding: 15px;
+    border-radius: 8px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sale-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .sale-item h2 {
+    margin: 10px 0;
+  }
+  
+  .sale-item p {
+    margin: 5px 0;
+  }
